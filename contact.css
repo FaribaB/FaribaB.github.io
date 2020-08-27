@@ -1,0 +1,180 @@
+.hj{
+  color: #F9026E;
+  font-family: showcard gothic;
+}
+
+.hg{
+    color: #C4003B;
+}
+
+.hgg{
+  color:#077911;
+  font-family: showcard gothic;
+  text-align: center;
+}
+
+.hggg{
+  color:#7A0EC6;
+  font-family:showcard gothic;
+  text-align: center;
+}
+.menu{
+  list-style:none;
+  background-color:#FFFFFF;
+  margin:0px;
+  padding:0px;
+  overflow: hidden;
+}
+
+.menu li{
+  float: left;
+}
+
+.menu li a{
+  display: block;
+  padding: 10px 15px;
+  color: black;
+  text-align: center;
+  text- decoration: none;
+  font-family:Ar Cena;
+}
+
+li a:hover {
+  background-color: #A0E6FF ;
+}
+
+body{
+  background-color:#F86161;
+}
+
+
+#picture{
+  width:100%;
+  height: 700px;
+  display: flex;
+  justify-content:center;
+  background-color: white;
+  padding: 0px;
+  margin:0;
+
+}
+
+.one{
+  font-family:Brush Script MT;
+  /*background-color :#7DF38F ;*/
+  text-align:center;
+  font-size:300px;
+  margin: 0px;
+  color: #005FC4;
+}
+
+.two{
+  font-family:Ar Cena;
+  text-align:center;
+  color: #003873;
+  margin-top: 0px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 600px;
+  height: 628px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.CON{
+margin-top: 0;
+font-family:Ar Cena;
+font-size:200px;
+margin-bottom: 0;
+}
+
+.can{
+margin-top: 0;
+font-family:Ar Cena;
+font-size:50px;
+}
+
+.name{
+  text-align:justify;
+  font-family:forte;
+  text-align:center;
+  font-size:100px;
+  margin: 0px;
+  color:#F90707;
+}
+
+.content{
+    margin-left: 50px;
+    width: 1235px;
+    overflow: visible;
+    text-align:justify;
+    font-family:Ar Cena;
+    word-break: normal;
+}
+
+.contentT{
+  margin-left: 50px;
+  width: 1225px;
+  overflow: visible;
+  text-align:justify;
+  font-family:Ar Cena;
+  word-break: normal;
+  }
+
+.end{
+  text-align: center;
+}
+  .footerStyle ul{
+    list-style:none;
+    background-color:#FFFFFF;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+  }
+
+  .footerStyle li{
+    float: left;
+  }
+
+  .footerStyle li a{
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-align: center;
+    text- decoration: none;
+    font-family:Ar Cena;
+  }
